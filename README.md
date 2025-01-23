@@ -1,13 +1,13 @@
 ![image](https://github.com/user-attachments/assets/db985886-bf42-40cd-96e3-56f09acb283d)
 
-# Barbearia Santos
+# BarberPro Manager
 
 https://dvalenascimento.github.io/barberProManager/
 
-Bem-vindo ao sistema da Barbearia Santos, um gerenciador de clientes e histórico de cortes que simplifica o dia a dia da sua barbearia. Este projeto foi desenvolvido com foco em usabilidade, produtividade e eficácia no gerenciamento de dados dos clientes.
+Bem-vindo ao sistema da BarberPro Manager, um gerenciador de clientes e histórico de cortes que simplifica o dia a dia da sua barbearia. Este projeto foi desenvolvido com foco em usabilidade, produtividade e eficácia no gerenciamento de dados dos clientes.
 
 ## Descrição do Projeto
-O sistema da Barbearia Santos é uma aplicação web responsiva que permite:
+O sistema da BarberPro Manager é uma aplicação web responsiva que permite:
 
 - **Cadastrar e gerenciar clientes** com dados como nome, telefone, aniversário e histórico de cortes.
 - **Exibir histórico de cortes** e oferecer descontos automáticos após 5 cortes realizados.
