@@ -2,6 +2,8 @@
 
 # Barbearia Santos
 
+https://dvalenascimento.github.io/barberProManager/
+
 Bem-vindo ao sistema da Barbearia Santos, um gerenciador de clientes e histórico de cortes que simplifica o dia a dia da sua barbearia. Este projeto foi desenvolvido com foco em usabilidade, produtividade e eficácia no gerenciamento de dados dos clientes.
 
 ## Descrição do Projeto
