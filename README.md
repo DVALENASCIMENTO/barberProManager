@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/db985886-bf42-40cd-96e3-56f09acb283d)
+![image](https://github.com/user-attachments/assets/8f3d3a5e-cd56-4a4b-9c98-44ccf9791ea9)
 
 # BarberPro Manager
 
