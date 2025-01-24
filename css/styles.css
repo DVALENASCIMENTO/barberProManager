@@ -6,15 +6,39 @@ body {
 }
 
 header {
-    background-color: #1B3A5B;
+    background-image: url('../images/th2.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o header */
+    background-repeat: no-repeat; /* Evita repetição desnecessária */
     color: #FFFFFF;
     padding: 20px;
     text-align: center;
+    border-bottom: 5px solid #CFAF45; /* Um detalhe elegante abaixo */
 }
+
 
 h1 {
     margin: 0;
+    font-size: 2.0rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(40deg, #1F3A63, #FFFFFF, #FF0000, #FFFFFF, #1F3A63,  #FFFFFF, #FF0000);
+    background-size: 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: barberPole 3s linear infinite;
 }
+
+@keyframes barberPole {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
 
 h2 {
     color: #1B3A5B;
@@ -38,22 +62,22 @@ input {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ff0000;
     border-radius: 4px;
 }
 
 button {
-    background-color: #CFAF45;
+    background-color: #2d2302;
     color: white;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid #ff9100;
     border-radius: 4px;
     cursor: pointer;
     margin-top: 10px;
 }
 
 button:hover {
-    background-color: #1F3A63;
+    background-color: #7e4900;
 }
 
 #historico {
@@ -85,15 +109,87 @@ button:hover {
 }
 
 #backup button {
-    background-color: #CFAF45;
+    background-color: #2d2302;
     color: white;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid #ff9100;
     border-radius: 4px;
     cursor: pointer;
     margin-top: 10px;
 }
 
 #backup button:hover {
-    background-color: #1F3A63;
+    background-color: #7e4900;
+}
+
+/* Ajustes para Histórico */
+#historico ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#historico li {
+    padding: 5px;
+    background-color: #E1E1E1;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    form,
+    #historico,
+    #backup {
+        padding: 15px;
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+
+    input,
+    textarea {
+        padding: 8px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    #backup button {
+        width: 48%;
+        margin: 0 1%;
+    }
+}
+
+/* Ajustes para telas muito pequenas */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
 }
